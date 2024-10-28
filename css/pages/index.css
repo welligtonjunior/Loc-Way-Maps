@@ -1,0 +1,11 @@
+@import './partials/inicio.css';
+@import './partials/sobre.css';
+@import './partials/geral.css';
+@import './partials/menu.css';
+@import './partials/info.css';
+@import './partials/responsive.css';
+@import './partials/loc.css';
+
+
+
+@import '../global/global.css';

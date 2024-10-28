@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Loc Way Maps</title>
+        <!-- Ref do cdnjs para Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="./css/pages/index.css">
+    </head>
+    <body>
+        <!-- Navegação do menu -->
+        <header>
+            <nav class="navbar section-content">
+                <a href="#" class="nav-logo">
+                    <h2 class="logo-texto">🗺️🎓 Loc Way Maps</h2>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#info" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#localizacao" class="nav-link">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Opiniões</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Seção de Início -->
+            <section class="sobre-section" id="inicio">
+                <div class="section-content">
+                    <div class="inicio-sobre">
+                        <h2 class="subtitulo">Venha conhecer nossa sede!</h2>
+                        <p class="descricao">Uma estrutura bem planejada, localizada em bairro nobre e com vários temas para serem abordados.</p>
+                        <div class="cliques">
+                            <a href="#localizacao" class="clique endereco-s">Endereço</a>
+                            <a href="#" class="clique contato-s">Contatos</a>
+                        </div>
+                    </div>
+                    <div class="logo-imagem">
+                        <img src="./css/pages/img/loc.png" alt="logo" class="hero-imagem">
+                    </div>
+                </div>
+            </section>
+            <!-- Seção Sobre -->
+            <section class="info-section" id="info">
+                <div class="section-content">
+                    <div class="info-imagem">
+                        <img src="./css/pages/img/loc.jpg" alt="info-imge" class="info-img">
+                    </div>
+                    <div class="info-detalhes">
+                        <h2 class="info-titulo">Sobre</h2>
+                        <p class="text">
+                            A empresa surgiu com o objetivo de promover acessibilidade e inclusão no ambiente universitário. Sua missão é ajudar novos estudantes, visitantes, professores, funcionários e pessoas com deficiência a encontrarem seu caminho de forma simples e intuitiva. Ao tornar o espaço mais acolhedor e acessível para todos, a empresa visa criar um ambiente mais inclusivo, onde todos se sintam à vontade para explorar e aproveitar as oportunidades oferecidas.
+                        </p>
+                        <div class="sociais-links-list">
+                            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+          <!--mapa-->
+        
+          <div id="mapa-container">
+            <div id="localizacao">
+                <h2>Localização - Loc Way Maps</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.679034836845!2d-56.10327522504243!3d-15.608788385005965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db1efac8af70f%3A0x688cbb59c2540eb!2sFATEC%20SENAI%20MT%20-%20Faculdade%20de%20Tecnologia%20SENAI%20MT!5e0!3m2!1spt-BR!2sbr!4v1729696058401!5m2!1spt-BR!2sbr"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="map-text">
+                <h3>Venha nos visitar!</h3>
+                <p>Nosso endereço é de fácil acesso e estamos localizados em uma região privilegiada.</p>
+                <p>Chegou ao local, mas não sabe localizar o escritório? Clique na localização interna, você será direcionado para o mapa interno da sede.</p>
+                <div class="buttons">
+                    <a href="localizacao-interna.html" class="button localizacao-btn">Localização Interna</a>
+                </div>
+                  
+            </div>
+        </main>
+    </body>
+</html>

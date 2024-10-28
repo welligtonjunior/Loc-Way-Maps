@@ -1,0 +1,101 @@
+#mapa-container {
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    align-items: flex-start; /* Alinha os elementos no topo */
+    gap: 20px; /* Espaçamento entre o mapa e o texto */
+    margin-top: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* Para adaptar em telas menores */
+}
+
+#localizacao {
+    flex: 0 0 50%; /* Mapa ocupará 50% do contêiner */
+    max-width: 600px; /* Ajuste conforme necessário */
+    margin: 0;
+    border: 1px solid #7e4a49;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#localizacao iframe {
+    width: 100%;
+    height: 400px; /* Ajuste a altura conforme necessário */
+    border: none;
+}
+
+@media (max-width: 900px) {
+    #mapa-container {
+        flex-direction: column; /* Alinha verticalmente em telas menores */
+    }
+
+    #localizacao,
+    .map-text {
+        max-width: 100%; /* Mapa e texto ocupam 100% da largura */
+    }
+}
+
+.map-text {
+    flex: 1 1 50%; /* O texto ocupará o restante do espaço */
+    max-width: 400px; /* Ajuste conforme necessário */
+    font-family: 'Arial', sans-serif; /* Definindo a fonte para ser igual à da seção Sobre */
+    line-height: 1.6; /* Melhorando a leitura com espaçamento entre linhas */
+    color: #333; /* Cor similar à do texto da seção Sobre */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #fff; /* Fundo branco para consistência */
+    border-radius: 10px; /* Borda arredondada para visual consistente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar a seção */
+}
+
+.map-text h3 {
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    color: #d80a07; /* Mesma cor utilizada nos títulos da seção Sobre */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.map-text p {
+    margin-bottom: 15px; /* Espaçamento entre parágrafos */
+    font-size: 16px; /* Tamanho de fonte para os parágrafos */
+    color: #555; /* Cor de texto suave */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white; /* Cor do texto */
+    background-color: #ff0505; /* Cor de fundo */
+    border: none;
+    border-radius: 5px; /* Cantos arredondados */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.button:hover {
+    background-color: #ee3d07; /* Cor de fundo ao passar o mouse */
+}
+
+html {
+    scroll-behavior: smooth; /* Adiciona rolagem suave ao clicar nos links */
+}
+
+
+
+/* codigo acima praticamente tudo no nosso papai gpt */
+
+
+        
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/city.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+}
+
+
+
